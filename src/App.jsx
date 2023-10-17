@@ -12,9 +12,9 @@ const App = () => {
   return (
     <Fragment>
       <Header />
+      <Nav />
       <About />
       <Contact />
-      <Nav />
       <Portfolio />
       <Experience />
     </Fragment>

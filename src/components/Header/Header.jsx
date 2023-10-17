@@ -11,21 +11,19 @@ const Header = () => {
   return (
     <Fragment>
       <header>
-        <div
-          className={`${indexclasses.container} ${indexclasses.header__container}`}
-        >
+        <div className={`${classes.container} ${classes.header__container}`}>
           <h5>Hello I'm</h5>
           <h1>Teerthraj Verma</h1>
           <h5 className={indexclasses.text_light}>FullStack Developer</h5>
           <CTA />
+          <HeaderSocial />
+          <div className={classes.me}>
+            <img src={Me} alt="me" />
+          </div>
+          <a href="#contact" className={classes.scroll__down}>
+            Scroll Down
+          </a>
         </div>
-        <HeaderSocial />
-        <div className={classes.me}>
-          <img src={Me} alt="me" />
-        </div>
-        <a href="#contact" className={indexclasses.scroll__down}>
-          Scroll Down
-        </a>
       </header>
     </Fragment>
   );
