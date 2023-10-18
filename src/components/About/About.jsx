@@ -6,6 +6,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import ME from "../../assets/me-about.jpg";
 
 import classes from "./About.module.css";
+import indexclasses from "../../index.module.css";
 
 const About = () => {
   return (
@@ -37,6 +38,18 @@ const About = () => {
                 <small>30+ Completed</small>
               </article>
             </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis itaque officiis, magnam illo aliquam enim facilis
+              repellat adipisci sit sequi quia alias assumenda natus ipsum
+              aperiam quibusdam aspernatur magni! Ad.
+            </p>
+            <a
+              href="#contact"
+              className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
+            >
+              Lets Talk
+            </a>
           </div>
         </div>
       </section>
