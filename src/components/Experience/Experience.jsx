@@ -18,34 +18,61 @@ const Experience = () => {
             <h3>Frontend Development</h3>
             <div className={classes.experience__content}>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>HTML</h4>
-                <small className={indexclasses.text_light}>Experienced</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>HTML</h4>
+                  <small className={indexclasses.text_light}>Experienced</small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>CSS</h4>
-                <small className={indexclasses.text_light}>Experienced</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>CSS</h4>
+                  <small className={indexclasses.text_light}>Experienced</small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>JavaScript</h4>
-                <small className={indexclasses.text_light}>Experienced</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>JavaScript</h4>
+                  <small className={indexclasses.text_light}>Experienced</small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>React</h4>
-                <small className={indexclasses.text_light}>Intermediate</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  {" "}
+                  <h4>React</h4>
+                  <small className={indexclasses.text_light}>
+                    Intermediate
+                  </small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>Next.js</h4>
-                <small className={indexclasses.text_light}>Basic</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>Next.js</h4>
+                  <small className={indexclasses.text_light}>Basic</small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>Tailwind CSS</h4>
-                <small className={indexclasses.text_light}>Basic</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>Tailwind CSS</h4>
+                  <small className={indexclasses.text_light}>Basic</small>
+                </div>
               </article>
             </div>
           </div>
@@ -54,29 +81,53 @@ const Experience = () => {
             <h3>Backend Development</h3>
             <div className={classes.experience__content}>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>Nodejs</h4>
-                <small className={indexclasses.text_light}>Basic</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>Nodejs</h4>
+                  <small className={indexclasses.text_light}>Basic</small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>Expressjs</h4>
-                <small className={indexclasses.text_light}>Basic</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>Expressjs</h4>
+                  <small className={indexclasses.text_light}>Basic</small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>MongoDB</h4>
-                <small className={indexclasses.text_light}>Intermediate</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>MongoDB</h4>
+                  <small className={indexclasses.text_light}>
+                    Intermediate
+                  </small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>SQL</h4>
-                <small className={indexclasses.text_light}>Intermediate</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>SQL</h4>
+                  <small className={indexclasses.text_light}>
+                    Intermediate
+                  </small>
+                </div>
               </article>
               <article className={classes.experience__detail}>
-                <BsPatchCheckFill />
-                <h4>GraphQL</h4>
-                <small className={indexclasses.text_light}>Basic</small>
+                <BsPatchCheckFill
+                  className={classes.experience__detail_icons}
+                />
+                <div>
+                  <h4>GraphQL</h4>
+                  <small className={indexclasses.text_light}>Basic</small>
+                </div>
               </article>
             </div>
           </div>
