@@ -38,3 +38,30 @@
   margin-top: 1rem;
   color: var(--color-primary);
 }
+
+/*medium device*/
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    background-color: red;
+    grid-template-columns: 1fr;
+  }
+  .experience__container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  .experience__content {
+    padding: 1rem;
+  }
+}
+/*Small Device*/
+@media screen and (max-width: 600px) {
+  .experience__container {
+    background-color: yellow;
+    gap: 1rem;
+  }
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}
