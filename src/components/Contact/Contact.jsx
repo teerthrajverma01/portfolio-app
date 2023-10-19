@@ -8,6 +8,7 @@ import classes from "./Contact.module.css";
 import indexclasses from "../../index.module.css";
 
 const Contact = () => {
+  // wont be doing form submission and sending as mail part
   return (
     <Fragment>
       <section id="contact" className={classes.contact}>
@@ -18,7 +19,7 @@ const Contact = () => {
         >
           <div className={classes.contact__options}>
             <article className={classes.contact__option}>
-              <MdOutlineEmail />
+              <MdOutlineEmail className={classes.icon} />
               <h4>Email</h4>
               <h5>dummy@gmail.com</h5>
               <a href="mailto:dummy@gmail.com" target="_blank">
@@ -26,7 +27,7 @@ const Contact = () => {
               </a>
             </article>
             <article className={classes.contact__option}>
-              <RiMessengerLine />
+              <RiMessengerLine className={classes.icon} />
               <h4>Messenger</h4>
               <h5>hisoka#44</h5>
               <a href="https://discord.com" target="_blank">
@@ -34,7 +35,7 @@ const Contact = () => {
               </a>
             </article>
             <article className={classes.contact__option}>
-              <BsWhatsapp />
+              <BsWhatsapp className={classes.icon} />
               <h4>Whatsapp</h4>
               <h5>+91-9876543210</h5>
               <a href="whatsapp.com" target="_blank">
@@ -63,7 +64,7 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              className={`${indexclasses.btn} ${classes.btn_primary}`}
+              className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
             >
               submit
             </button>
