@@ -25,84 +25,108 @@ const Portfolio = () => {
               <img src={IMG1} alt="img1" />
             </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com">Github</a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
-            >
-              Live Demo
-            </a>
+            <div className={classes.portfolio__item_cta}>
+              <a href="https://github.com" className={`${indexclasses.btn} `}>
+                Github
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
+              >
+                Live Demo
+              </a>
+            </div>
           </article>
           <article className={classes.portfolio__item}>
             <div className={classes.portfolio__item_image}>
               <img src={IMG2} alt="img2" />
             </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com">Github</a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
-            >
-              Live Demo
-            </a>
+            <div className={classes.portfolio__item_cta}>
+              <a href="https://github.com" className={`${indexclasses.btn} `}>
+                Github
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
+              >
+                Live Demo
+              </a>
+            </div>
           </article>
           <article className={classes.portfolio__item}>
             <div className={classes.portfolio__item_image}>
               <img src={IMG3} alt="img3" />
             </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com">Github</a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
-            >
-              Live Demo
-            </a>
+            <div className={classes.portfolio__item_cta}>
+              <a href="https://github.com" className={`${indexclasses.btn}`}>
+                Github
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
+              >
+                Live Demo
+              </a>
+            </div>
           </article>
           <article className={classes.portfolio__item}>
             <div className={classes.portfolio__item_image}>
               <img src={IMG4} alt="img4" />
             </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com">Github</a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
-            >
-              Live Demo
-            </a>
+            <div className={classes.portfolio__item_cta}>
+              <a href="https://github.com" className={`${indexclasses.btn}`}>
+                Github
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
+              >
+                Live Demo
+              </a>
+            </div>
           </article>
           <article className={classes.portfolio__item}>
             <div className={classes.portfolio__item_image}>
               <img src={IMG5} alt="img5" />
             </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com">Github</a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
-            >
-              Live Demo
-            </a>
+            <div className={classes.portfolio__item_cta}>
+              <a href="https://github.com" className={`${indexclasses.btn}`}>
+                Github
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
+              >
+                Live Demo
+              </a>
+            </div>
           </article>
           <article className={classes.portfolio__item}>
             <div className={classes.portfolio__item_image}>
               <img src={IMG6} alt="img6" />
             </div>
             <h3>This is a portfolio item title</h3>
-            <a href="https://github.com">Github</a>
-            <a
-              href="https://github.com"
-              target="_blank"
-              className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
-            >
-              Live Demo
-            </a>
+            <div className={classes.portfolio__item_cta}>
+              <a href="https://github.com" className={`${indexclasses.btn}`}>
+                Github
+              </a>
+              <a
+                href="https://github.com"
+                target="_blank"
+                className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
+              >
+                Live Demo
+              </a>
+            </div>
           </article>
         </div>
       </section>
