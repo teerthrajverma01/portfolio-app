@@ -66,7 +66,7 @@ const Contact = () => {
               type="submit"
               className={`${indexclasses.btn} ${indexclasses.btn_primary}`}
             >
-              submit
+              Send Message
             </button>
           </form>
         </div>

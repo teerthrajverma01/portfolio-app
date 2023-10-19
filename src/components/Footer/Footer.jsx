@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="#" className={classes.footer__logo}>
           Teerthraj
         </a>
-        <ul>
+        <ul className={classes.permalinks}>
           <li>
             <a href="#"></a>
           </li>
