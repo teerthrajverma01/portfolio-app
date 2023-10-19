@@ -49,7 +49,6 @@
 /*medium device*/
 @media screen and (max-width: 1024px) {
   .experience__container {
-    background-color: red;
     grid-template-columns: 1fr;
   }
   .experience__container > div {
@@ -64,7 +63,6 @@
 /*Small Device*/
 @media screen and (max-width: 600px) {
   .experience__container {
-    background-color: yellow;
     gap: 1rem;
   }
   .experience__container > div {
